@@ -1,0 +1,25 @@
+ASTROFURROW FIELD SCHOOL
+Website art slot STORY_SPAIN_COVER
+Place — Central Spain
+Existing story — Can a different planting date dodge hot days?
+Suggested image filename — story-spain.png
+
+Create one exceptionally polished illustration for this story card. Landscape 16:9, with a preferred finished canvas of 1920 × 1080. Compose for the full horizontal image and a centered 16:9 crop. Leave breathing room around the focal subject and keep essential details and the credit area within the safe frame.
+
+Visual style
+An original contemporary picture book for families, with endearing shapes, observant natural details, and the warmth of gouache laid over softly textured paper. Use finely drawn pencil or brush contours, translucent shadows, quiet highlights and softly mixed pigments. Give the adult character clear expression and expressive hands. Use the camera cues below to lay out the focus plane and depth of field while retaining the warm hand-painted character of the whole picture. Keep the image readable when reduced to a story-card thumbnail. Work as one landscape scene with one main action.
+
+Scene and depth of field
+Use a clear late-afternoon view across a central Iberian cereal field. A fictional adult grower crouches in the shade of a low pale stone wall, considering two adjacent strips. One strip has feathery young barley shoots, and the other is a prepared bed waiting to be sown. A worn, closed field notebook sits beside the adult rather than a readable calendar. Show a hazy wheat-coloured ridge, dry grass and the cool blue shadow from the wall. Let sunlight pick out a few awns from a neighboring barley strip, with the quiet sunlight and soft air in the distance carrying the feeling of a hot day. Neither patch should look like a documented crop treatment.
+
+Use a 70 mm f/4 visual perspective and slight compression across the two strips. Focus sharply on the grower’s face, near hand and transition between the beds. Soften close stubble and let the far plateau and wheat rows recede into cream-gold afternoon haze. Use restrained warm terracotta, polished ochre, smoky sage and clear blue-purple shadow. Leave the connecting paths readable even when the cover is viewed small.
+
+Make the planting choice clear through the two field textures and the adult’s gaze, with any heat depiction remaining atmospheric. Keep both crops healthy enough to consider. Convey timing and exposure as a question, with stable skies and no heat damage assessment or numeric weather data.
+
+Readability and credits
+Keep the lower-right corner quiet and evenly toned, with space for two readable lines around 24–28 px high at a 1080 px canvas height. Keep at least a 5% safe margin from the right and bottom. Add these exact lines as small English lettering in that corner.
+
+AI-generated with GPT Image
+Generated using SI tools
+
+Use the exact spelling and capitalization. If lettering is inaccurate, keep the area quiet so the exact lines can be set during website placement. The story title and place name will be supplied by the website. Keep the illustration free of other lettering, chart values, branding, flags, agency insignia, and watermark graphics. Use fictional adults and avoid recognizable real people. This is a conceptual story illustration. Keep all apparent measurements and results qualitative. Return one finished illustration.

@@ -1,0 +1,25 @@
+ASTROFURROW FIELD SCHOOL
+Website art slot STORY_KENYA_COVER
+Place — Eastern Kenya
+Existing story — How far will the water go?
+Suggested image filename — story-kenya.png
+
+Create one exceptionally polished illustration for this story card. Landscape 16:9, with a preferred finished canvas of 1920 × 1080. Compose for the full horizontal image and a centered 16:9 crop. Leave breathing room around the focal subject and keep essential details and the credit area within the safe frame.
+
+Visual style
+An original contemporary picture book for families, with endearing shapes, observant natural details, and the warmth of gouache laid over softly textured paper. Use finely drawn pencil or brush contours, translucent shadows, quiet highlights and softly mixed pigments. Give the adult character clear expression and expressive hands. Use the camera cues below to lay out the focus plane and depth of field while retaining the warm hand-painted character of the whole picture. Keep the image readable when reduced to a story-card thumbnail. Work as one landscape scene with one main action.
+
+Scene and depth of field
+Draw a small dryland plot at early morning in eastern Kenya. A fictional adult grower with rolled sleeves follows a simple hose from a modest working pump to a short irrigation furrow. Include a maize plant with long strap-shaped leaves and a nearby bean plant with soft heart-shaped leaves and a short stake. The grower holds the hose at the flow point to inspect where the water is going. In the foreground only, use a restrained storybook cutaway along the furrow bank to suggest a darker damp upper layer and a little of the softer lower layer below it. The cutaway is a visual analogy with earthy colours and visible fine roots. Water is clear and the soil has natural rusty ochre tones.
+
+Compose at the furrow bank with a 45 mm f/3.5 visual perspective. Place the grower’s hand, the glint on the shallow flow and the leading cutaway edge on the same focal plane. Blur only the nearest grasses and the distant dryland horizon. Deepen the dry red soil under soft acacia-shaped shade, with warm yellow sunlight on the plant edges and a few dusty aqua accents from the hose and water. Draw the adult with an ordinary, contemporary working posture and respectful details.
+
+Keep the pump visually small and the wet area bounded. The question is how far a limited flow goes. Keep dissolved salt invisible and the starting soil salinity unshown. Ground the illustrative roots in real soil texture and leave every boundary unlabelled.
+
+Readability and credits
+Keep the lower-right corner quiet and evenly toned, with space for two readable lines around 24–28 px high at a 1080 px canvas height. Keep at least a 5% safe margin from the right and bottom. Add these exact lines as small English lettering in that corner.
+
+AI-generated with GPT Image
+Generated using SI tools
+
+Use the exact spelling and capitalization. If lettering is inaccurate, keep the area quiet so the exact lines can be set during website placement. The story title and place name will be supplied by the website. Keep the illustration free of other lettering, chart values, branding, flags, agency insignia, and watermark graphics. Use fictional adults and avoid recognizable real people. This is a conceptual story illustration. Keep all apparent measurements and results qualitative. Return one finished illustration.

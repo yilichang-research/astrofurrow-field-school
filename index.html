@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore AstroFurrow Field School. Replay archived NASA weather, compare three crop rotations, and see which field checks matter before planting.">
+  <meta name="theme-color" content="#f8f4e9">
+  <meta name="generator" content="AstroFurrow Field School 1.7.0, ChatGPT-assisted code, illustration and text">
+  <title>AstroFurrow · Field School</title>
+  <link rel="icon" href="assets/sprout.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/field-school.css">
+  <script defer src="assets/intro-film.js"></script>
+  <script defer src="assets/field-school.js"></script>
+</head>
+<body>
+<a class="skip" href="#missions">Skip to field missions</a>
+<svg class="svg-defs" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+  <symbol id="icon-sprout" viewBox="0 0 24 24"><path d="M12 21V11m0 3C7 14 3 11 3 5c5 0 9 1 9 6m0 0c0-5 4-7 9-7 0 6-4 9-9 9" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="icon-rain" viewBox="0 0 24 24"><path d="M5 15a4 4 0 1 1 1-8 6 6 0 0 1 11 1 3.5 3.5 0 0 1 1 7M9 15l-1 3m5-3-1 4m5-4-1 3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+  <symbol id="icon-drop" viewBox="0 0 24 24"><path d="M12 3c3 5 7 8.2 7 12a7 7 0 0 1-14 0c0-3.8 4-7 7-12Z" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M8 15c0 2 1 3 3 3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+  <symbol id="icon-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4.25" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 2.5v3m0 13v3m9.5-9.5h-3m-13 0h-3m16.2-6.7-2.1 2.1m-9.2 9.2-2.1 2.1m13.4 0-2.1-2.1M7.4 7.4 5.3 5.3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+  <symbol id="icon-ridge" viewBox="0 0 24 24"><path d="m2 19 7-12 3.2 5.2 4.1-7L23 19H2Zm4-7 3 1 2-2m4-3 1.5 1.5 1.2-1.5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="icon-ripple" viewBox="0 0 24 24"><path d="M3 7c4 0 4 3 9 3s5-3 9-3M3 13c4 0 4 3 9 3s5-3 9-3M3 19c4 0 4 2 9 2s5-2 9-2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+  <symbol id="icon-arrow" viewBox="0 0 24 24"><path d="M4 12h14m-5-5 5 5-5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="icon-search" viewBox="0 0 24 24"><circle cx="10.6" cy="10.6" r="5.7" fill="none" stroke="currentColor" stroke-width="2"/><path d="m15 15 4.5 4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+  <symbol id="icon-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+  <symbol id="icon-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M3 12h18m-9-9c-5 4-5 14 0 18m0-18c5 4 5 14 0 18" fill="none" stroke="currentColor" stroke-width="1.7"/></symbol>
+  <symbol id="icon-book" viewBox="0 0 24 24"><path d="M4 4h13a3 3 0 0 1 3 3v12H7a3 3 0 0 1-3-3V4Zm0 12a3 3 0 0 1 3-3h13M8 7h7" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="icon-deck" viewBox="0 0 24 24"><path d="M3 4h18m-16 0v11h14V4m-7 11v5m-3 0h6M8 11l3-3 2 2 3-3" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+</svg>
+<header class="masthead">
+  <div class="shell head-row">
+    <a class="wordmark" href="#top" aria-label="AstroFurrow Field School home">
+      <span class="brand-icon"><svg aria-hidden="true" viewBox="0 0 24 24"><use href="#icon-sprout"></use></svg></span>
+      <span><strong>AstroFurrow</strong><span class="brand-caption">Field School</span></span>
+    </a>
+    <nav class="site-nav" aria-label="Site">
+      <a href="#intro-film">Introduction</a><a href="#missions">Field missions</a><a href="#map">Map &amp; data</a><a href="#stories">Stories</a><a href="#word-lab">Word lab</a><a href="#presentation">Presentation</a>
+    </nav>
+    <a class="top-tool" href="#tuku-water">Tuku 72h lab <svg aria-hidden="true" viewBox="0 0 24 24"><use href="#icon-arrow"></use></svg></a>
+  </div>
+</header>
+<main id="top">
+  <section class="shell hero" aria-labelledby="hero-title">
+    <div class="hero-copy">
+      <p class="kicker"><span></span> Field Shift · NASA Space Apps 2026</p>
+      <h1 id="hero-title">What should<br class="desktop-break"> we grow <em>next?</em></h1>
+      <p class="hero-deck">In Field School, try six farm missions. Change the weather or water, play the growing season, and see what each crop leaves for the next one.</p>
+      <div class="hero-actions">
+        <a class="button main-button" href="#missions">Play the field missions <svg aria-hidden="true" viewBox="0 0 24 24"><use href="#icon-arrow"></use></svg></a>
+        <a class="soft-link" href="#map">Explore the map</a>
+      </div>
+    </div>
+    <figure class="hero-scene">
+      <svg xmlns="http://www.w3.org/2000/svg" id="hero-growth" viewBox="0 0 620 415" width="620" height="415" role="img" aria-labelledby="hero-art" aria-describedby="hero-art-description">
+  <title id="hero-art">A seedling grows through day and night</title>
+  <desc id="hero-art-description">A smiling sun and nearly full moon rise and set above farm rows. A little satellite loops across the sky as a seedling unfurls leaves. A day takes 48 seconds in this illustration.</desc>
+  <defs>
+    <clipPath id="hero-frame"><rect width="620" height="415" rx="28"/></clipPath>
+    <linearGradient id="hero-day-sky" x2="0" y2="1">
+      <stop stop-color="#c9ded0"/><stop offset="1" stop-color="#fff1c5"/>
+    </linearGradient>
+    <linearGradient id="hero-night-sky" x2="0" y2="1">
+      <stop stop-color="#263655"/><stop offset=".67" stop-color="#586384"/><stop offset="1" stop-color="#d1a6a2"/>
+    </linearGradient>
+    <linearGradient id="hero-sun-fill" x2=".3" y2="1">
+      <stop stop-color="#ffe998"/><stop offset="1" stop-color="#efb95e"/>
+    </linearGradient>
+    <linearGradient id="hero-leaf-fill" x2=".4" y2="1">
+      <stop stop-color="#a4c779"/><stop offset="1" stop-color="#62945d"/>
+    </linearGradient>
+    <pattern id="hero-soil" x="2" y="1" width="26" height="23" patternUnits="userSpaceOnUse">
+      <path d="m5 8 3-1m11 12 3-1" fill="none" stroke="#a77b55" stroke-opacity=".48" stroke-width="1.4" stroke-linecap="round"/>
+    </pattern>
+    <path id="hero-land-outline" d="M0 187Q94 108 200 179T426 168Q521 119 620 150V415H0Z"/>
+  </defs>
+
+  <g clip-path="url(#hero-frame)">
+    <rect width="620" height="415" fill="url(#hero-day-sky)"/>
+    <g opacity="0" data-hero="night">
+      <animate attributeName="opacity" dur="48s" keyTimes="0;.32;.435;.829;.942;1" values="0;0;1;1;0;0" repeatCount="indefinite"/>
+      <rect width="620" height="415" fill="url(#hero-night-sky)"/>
+      <g fill="#fff2bc">
+        <path d="M121 42l2 6 6 2-6 2-2 6-2-6-6-2 6-2ZM387 29l1.7 5.3 5.3 1.7-5.3 1.7-1.7 5.3-1.7-5.3-5.3-1.7 5.3-1.7ZM563 52l1.8 5.2 5.2 1.8-5.2 1.8-1.8 5.2-1.8-5.2-5.2-1.8 5.2-1.8Z"/>
+        <circle cx="69" cy="91" r="2"/><circle cx="174" cy="29" r="2.1"/><circle cx="218" cy="120" r="2.2"/>
+        <circle cx="271" cy="38" r="2"/><circle cx="334" cy="99" r="2.5"/><circle cx="413" cy="115" r="1.9"/>
+        <circle cx="596" cy="108" r="2.1"/><circle cx="300" cy="142" r="1.7"/>
+      </g>
+    </g>
+    <path d="M 680 202 A 370 154 0 1 0 -60 202" fill="none" stroke="#fff8db" stroke-opacity=".6" stroke-width="1.5" stroke-dasharray="2 7"/>
+
+    <!-- 48 seconds per 24 hours. Begin in the morning, six seconds after sunrise. -->
+    <g data-hero="sun">
+      <animateMotion begin="-6s" dur="48s" path="M -66 196 A 376 140 0 1 1 686 196 A 376 140 0 1 1 -66 196" repeatCount="indefinite"/>
+      <g transform="scale(.78)" data-hero="sun-face">
+        <circle r="51" fill="#fff0b3" opacity=".56"/>
+        <path d="M0-58v-9m0 125v9m58-67h9m-125 0h-9m108-40 6-6m-88 88-6 6m88 0-6-6m-82-82 6 6" fill="none" stroke="#d69a53" stroke-width="3.2" stroke-linecap="round"/>
+        <circle r="40" fill="url(#hero-sun-fill)" stroke="#bc8544" stroke-width="1.6"/>
+        <path d="M-15-3q4-5 8 0m14 0q4-5 8 0M-8 7q8 8 16 0" fill="none" stroke="#744a3b" stroke-width="2.6" stroke-linecap="round"/>
+        <ellipse cx="-20" cy="7" rx="5.5" ry="2.8" fill="#e78f77"/><ellipse cx="20" cy="7" rx="5.5" ry="2.8" fill="#e78f77"/>
+      </g>
+    </g>
+    <!-- Each visible pass lasts about 24.83 seconds. The next moonrise is 50 model minutes later.
+         The two-day illustration rejoins its initial phase on the concealed lower arc. -->
+    <g data-hero="moon">
+      <animateMotion begin="-78s" dur="96s" calcMode="linear" keyTimes="0;.258681;.517361;.776042;1" keyPoints="0;.25;.5;.75;1"
+        path="M -66 196 A 376 140 0 1 1 686 196 A 376 140 0 1 1 -66 196 A 376 140 0 1 1 686 196 A 376 140 0 1 1 -66 196" repeatCount="indefinite"/>
+      <g data-hero="moon-face">
+        <circle r="48" fill="#f8e9b5" opacity=".14"/>
+        <circle r="40" fill="#ddc79c" stroke="#dac48b" stroke-width="1.5"/>
+        <path d="M12-37C-11-46-39-26-39 0c0 24 25 44 48 38C42 29 49-19 12-37Z" fill="#fff0c2"/>
+        <circle cx="-22" cy="-19" r="5" fill="#ecd8a3"/><circle cx="18" cy="18" r="6" fill="#ecd8a3"/><circle cx="-11" cy="24" r="3.3" fill="#ecd8a3"/>
+        <path d="M-16-6q3.5-4.5 7 0m17 0q3.5-4.5 7 0M-7 4q7 7 14 0" fill="none" stroke="#775c5b" stroke-width="2.4" stroke-linecap="round"/>
+        <ellipse cx="-20" cy="3" rx="5.3" ry="2.5" fill="#eda991"/><ellipse cx="20" cy="3" rx="5.3" ry="2.5" fill="#eda991"/>
+      </g>
+    </g>
+
+    <!-- A representative prograde orbit takes 90 model minutes. The land conceals its far side. -->
+    <g data-hero="satellite">
+      <animateMotion begin="-0.53s" dur="3s" path="M 680 202 A 370 154 0 1 0 -60 202 A 370 154 0 1 0 680 202" repeatCount="indefinite"/>
+      <g transform="rotate(-8) scale(.78)" stroke="#334e63" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M-14 0h-7m35 0h7m-21 13v8m-6 0h12" fill="none" stroke-width="2.5"/>
+        <rect x="-41" y="-9" width="21" height="18" rx="2.5" fill="#8cb8c6" stroke-width="1.8"/>
+        <rect x="20" y="-9" width="21" height="18" rx="2.5" fill="#8cb8c6" stroke-width="1.8"/>
+        <path d="M-34-8v16m7-16v16m-13-8h19M27-8v16m7-16v16m-13-8h19" fill="none" stroke="#d9eef2" stroke-width="1.3"/>
+        <rect x="-14" y="-11" width="28" height="24" rx="7" fill="#f7ddb0" stroke-width="2.2"/>
+        <path d="M0-11v-8m0 0 6-4" fill="none" stroke-width="2"/>
+        <circle cx="6.4" cy="-23.6" r="2.2" fill="#fad78b" stroke-width="1.5"/>
+        <path d="M-5-2v1m10-1v1M-3 4q3 4 6 0" fill="none" stroke="#334e63" stroke-width="1.7"/>
+        <path d="M-9 3h1m16 0h1" stroke="#d98c7b" stroke-width="1.7"/>
+      </g>
+    </g>
+    <path d="M70 133h117a13 13 0 0 0 0-26h-10a27 27 0 0 0-48-4 21 21 0 0 0-35 4H70a13 13 0 0 0 0 26Z" fill="#fffae7" opacity=".74">
+      <animate attributeName="opacity" dur="48s" keyTimes="0;.32;.435;.829;.942;1" values=".74;.74;.22;.22;.74;.74" repeatCount="indefinite"/>
+    </path>
+
+    <use href="#hero-land-outline" fill="#b9c997"/>
+    <path d="M-25 220q141-108 292-33 142 74 363-9v241H-25Z" fill="#89a87b"/>
+    <path d="M-16 267q170-70 320-42 169 28 331-35L641 424H-16Z" fill="#587f5e"/>
+    <path d="M-20 316q211-94 330-59 173 54 341-16l-4 184H-20Z" fill="#b0c284"/>
+    <path d="M-24 344q154-103 284-87 35 4 67 20L214 426H-20Z" fill="#d9b483"/>
+    <path d="M-24 344q154-103 284-87 35 4 67 20L214 426H-20Z" fill="url(#hero-soil)"/>
+    <path d="M453 267q94 23 176-7v164H192q58-88 261-157Z" fill="#91ad75"/>
+    <path d="M643 301Q459 278 222 428m422-106q-181-5-360 106m359-82q-151 4-287 82m288-57q-120 12-207 57" fill="none" stroke="#557c58" stroke-width="4" stroke-linecap="round" opacity=".74"/>
+    <path d="M-16 366q137-81 251-89m-126 147q53-84 158-140M-5 399q122-87 258-119" fill="none" stroke="#9b754f" stroke-opacity=".69" stroke-width="2.5"/>
+    <path d="M64 300l3-9m-3 9-4-5M484 328l5-10m-5 10-5-5M550 294l3-8m-3 8-3-4M211 307l3-7" fill="none" stroke="#456c55" stroke-width="1.7" stroke-linecap="round"/>
+    <g fill="#efd284"><circle cx="53" cy="264" r="3.7"/><circle cx="173" cy="237" r="2.7"/><circle cx="551" cy="226" r="3"/><circle cx="576" cy="220" r="2.5"/></g>
+    <g transform="translate(348 333)">
+      <ellipse cy="17" rx="78" ry="13" fill="#223e35" opacity=".20"/>
+      <path d="M-52 12q19-20 51-19 37 1 53 19-18 17-52 17Q-31 27-52 12Z" fill="#a16a4d" stroke="#7b553e" stroke-width="1.8"/>
+      <path d="M-38 13l6 1m20 6 4-1m45-7 5 2m-17 4 4-1" fill="none" stroke="#e2ad80" stroke-linecap="round" opacity=".65"/>
+      <g data-hero="plant" transform="scale(.53)" stroke="#315840" stroke-width="2.9" stroke-linecap="round" stroke-linejoin="round">
+        <animateTransform attributeName="transform" type="scale" dur="48s" keyTimes="0;.16;.48;.78;.935;.963;.974;1"
+          values=".53;.66;.86;1.06;1.16;1.17;.53;.53" repeatCount="indefinite"/>
+        <animate attributeName="opacity" dur="48s" keyTimes="0;.935;.963;.974;1" values="1;1;0;0;1" repeatCount="indefinite"/>
+        <path d="M0 2q-4-55 4-127" fill="none" stroke="#416b4c" stroke-width="4.2"/>
+        <g data-hero="new-leaves" opacity="0" fill="url(#hero-leaf-fill)">
+          <animate attributeName="opacity" dur="48s" keyTimes="0;.085;.39;.963;.974;1" values="0;0;1;1;0;0" repeatCount="indefinite"/>
+          <path d="M0-43q-39 9-53-22 32-9 53 22Z"/>
+          <path d="M0-58q14-39 55-34-19 36-55 34Z"/>
+          <path d="M-2-45q-18-10-34-15M2-60q17-14 33-20" fill="none" stroke-width="1.6"/>
+        </g>
+        <path d="M3-91q-42-1-60-44 43-1 60 44Zm2-17q13-49 58-54-12 45-58 54Z" fill="url(#hero-leaf-fill)"/>
+        <path d="M-1-94q-18-16-35-26m44 10q17-18 34-33" fill="none" stroke-width="1.7"/>
+        <path d="M-24-5q-14-16 0-29 11-8 22-1 15-8 25-1 14 9 8 24-6 15-26 20Q-14 8-24-5Z" fill="#edca83" stroke="#75513e" stroke-width="2.6"/>
+        <path d="M-10-21v2m18-2v2m-13 5q5 5 10 0" fill="none" stroke="#634c42" stroke-width="2.1"/>
+        <path d="M-17-15l3 1m27-1 3-1" fill="none" stroke="#dd9776" stroke-width="2.7"/>
+      </g>
+    </g>
+    <use href="#hero-land-outline" fill="#2f375f" opacity="0" pointer-events="none">
+      <animate attributeName="opacity" dur="48s" keyTimes="0;.32;.435;.829;.942;1" values="0;0;.31;.31;0;0" repeatCount="indefinite"/>
+    </use>
+  </g>
+</svg>
+      <figcaption>
+        <svg aria-hidden="true" viewBox="0 0 24 24"><use href="#icon-sprout"></use></svg>
+        <span>Each crop takes a turn. The soil keeps changing.</span>
+        <button type="button" id="hero-motion-toggle" aria-controls="hero-growth" aria-label="Pause illustration" title="Pause illustration" hidden>
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path fill="currentColor" d="M8 5h3v14H8zm5 0h3v14h-3z"/></svg>
+        </button>
+      </figcaption>
+    </figure>
+    <script>
+      (() => {
+        const illustration = document.getElementById('hero-growth');
+        const button = document.getElementById('hero-motion-toggle');
+        if (typeof illustration?.pauseAnimations !== 'function') return;
+        const icon = button.querySelector('path');
+        button.addEventListener('click', () => {
+          const paused = illustration.animationsPaused();
+          if (paused) illustration.unpauseAnimations();
+          else illustration.pauseAnimations();
+          const label = paused ? 'Pause illustration' : 'Play illustration';
+          button.setAttribute('aria-label', label);
+          button.title = label;
+          icon.setAttribute('d', paused ? 'M8 5h3v14H8zm5 0h3v14h-3z' : 'M8 5v14l11-7z');
+        });
+        button.hidden = false;
+      })();
+    </script>
+  </section>
+  <section class="shell intro-section" id="intro-film" data-media-slot="INTRO_FILM" aria-labelledby="intro-title">
+    <div class="intro-panel">
+      <div class="intro-copy">
+        <h2 id="intro-title">Six fields, six decisions</h2>
+        <p>Field School pairs archived NASA weather with example soil, crop, and irrigation settings. Compare three rotations and see which field checks could change a grower’s choice.</p>
+        <div class="intro-route">
+          <h3>Start after the rice harvest</h3>
+          <p>In Tuku, Taiwan, move the peanut planting date. Then check what each plan leaves for the next crop.</p>
+          <a class="soft-link" data-mission-link href="#mission-tuku">Open the Tuku mission <svg aria-hidden="true" viewBox="0 0 24 24"><use href="#icon-arrow"></use></svg></a>
+        </div>
+      </div>
+      
+      <div class="intro-player">
+        <figure>
+          <div class="film-stage">
+            <p class="film-disclosure">AI-generated footage <span aria-hidden="true">·</span> Generated using SI tools</p>
+            <video id="intro-film-video" src="assets/media/Index_0.mp4" width="1280" height="720" autoplay loop playsinline
+              preload="metadata" poster="assets/media/index-poster.webp" aria-label="Six-region introduction film"
+              aria-describedby="intro-film-caption intro-film-description" disablepictureinpicture disableremoteplayback></video>
+            <div class="film-controls" id="intro-film-controls" hidden>
+              <button class="button" id="intro-sound" type="button" aria-controls="intro-film-video">Mute Sound</button>
+            </div>
+          </div>
+          <figcaption id="intro-film-caption">A conceptual film of six farming regions. The field missions use separate archives and simulations.</figcaption>
+        </figure>
+        <p id="intro-film-description" class="visually-hidden">A three-by-two montage follows adult growers in Taiwan, India, Kenya, Spain, Peru and Brazil as they check the soil, crops, and weather.</p>
+        <p class="film-credit">Prompts and images credited to ChatGPT and GPT Image, video to Google Flow, and music to Suno.</p>
+        <p class="film-error" id="intro-film-error" role="status" hidden>The introduction film could not load. Select Enable Sound to retry.</p>
+      </div>
+      
+      
+    </div>
+  </section>
+  <section class="mission-area" id="missions" aria-labelledby="missions-title">
+    <div class="shell">
+      <div class="section-heading">
+        <div><p class="kicker">The field missions</p><h2 id="missions-title" tabindex="-1">Pick a place to start</h2></div>
+        <p>Try a change, compare three plans, then make your guess.</p>
+      </div>
+      <nav id="mission-nav" class="region-nav" aria-label="Choose a field mission"></nav>
+      <div id="mission-content">
+        <p class="startup">Opening the field board. You can read the field stories and sources below.</p>
+      </div>
+      <noscript><p class="status warning">Turn on JavaScript in your browser to run the field missions. The NASA sources below remain available.</p></noscript>
+    </div>
+  </section>
+  <section class="shell lower-section water-section" id="tuku-water" aria-labelledby="tuku-water-title">
+    <div class="section-heading">
+      <div><p class="kicker">Tuku · 72-hour lab</p><h2 id="tuku-water-title">Water today or check again tomorrow?</h2></div>
+      <p>Try the same practice field as the Tuku pilot. Turn off the rain and see how water drops across three days. <a href="#decision-evidence" data-open-details>Check the archived input</a>.</p>
+    </div>
+    <div id="water-lab-content"></div>
+  </section>
+  <section class="shell lower-section" id="map" aria-labelledby="map-title">
+    <div class="section-heading">
+      <div><p class="kicker">Map &amp; data</p><h2 id="map-title">Where did the data come from?</h2></div>
+      <p>Follow a study point from the world map to the nine elevation samples around it.</p>
+    </div>
+    <div id="map-content"></div>
+    <section class="paper evidence-panel" aria-labelledby="optical-title">
+      <div class="panel-head"><div><p class="kicker">Optical satellite data</p><h3 id="optical-title">What did the satellite see? <button type="button" class="explain" data-term="ndvi" aria-label="Explain NDVI"><svg aria-hidden="true" viewBox="0 0 24 24"><use href="#icon-search"></use></svg></button></h3></div>
+      <label class="inline-control">Data quality
+        <select id="optical-screen"><option value="strict">Good pixels</option><option value="marginal">Good and some usable pixels</option></select>
+      </label></div>
+      <p><span data-word="modis">NASA Terra MODIS MOD13Q1 v061</span> estimates a <span data-word="ndvi">greenness index</span> over 16-day windows at a nominal 250 m scale. This is separate evidence about the study point.</p>
+      <div id="optical-content"></div>
+    </section>
+    <details class="paper evidence-panel" id="gauge-section">
+      <summary>What a rain gauge and a satellite saw in Tuku</summary>
+      <p>A <span data-word="gauge">rain gauge</span> is one measuring cup. A satellite estimate describes a whole <span data-word="grid">grid cell</span>. Compare them across the same days.
+      </p>
+      <div id="gauge-content"></div>
+    </details>
+  </section>
+  <section class="story-area" id="stories" aria-labelledby="stories-title">
+    <div class="shell">
+      <div class="section-heading">
+        <div><p class="kicker">Six places, six questions</p><h2 id="stories-title">Stories from the field</h2></div>
+        <p>Read a short teaching scenario, see what the data support, and open the matching mission.</p>
+      </div>
+      <div id="story-grid" class="story-grid"></div>
+    </div>
+  </section>
+  <section class="shell lower-section" id="word-lab" aria-labelledby="words-title">
+    <div class="section-heading">
+      <div><p class="kicker">Word lab</p><h2 id="words-title">Look closer</h2></div>
+      <p>Use the magnifying glasses throughout the site, or search for a word here.</p>
+    </div>
+    <label class="search-label" for="word-search">
+      <svg aria-hidden="true" viewBox="0 0 24 24"><use href="#icon-search"></use></svg>
+      <input id="word-search" type="search" placeholder="Search for frost, soil, rain…" autocomplete="off">
+      <span class="visually-hidden">Search for a science term</span>
+    </label>
+    <div id="word-list" class="word-list"></div>
+  </section>
+  <section class="shell lower-section presentation-section" id="presentation" aria-labelledby="presentation-title">
+    <div class="presentation-panel">
+      <div class="presentation-intro">
+        <span class="presentation-icon"><svg aria-hidden="true" viewBox="0 0 24 24"><use href="#icon-deck"></use></svg></span>
+        <div>
+          <h2 id="presentation-title">Competition presentation</h2>
+          <p>Download the available files for the English project presentation.</p>
+        </div>
+      </div>
+      <ul class="presentation-files" aria-label="Presentation downloads">
+        <li><strong>PowerPoint</strong><a href="assets/downloads/AstroFurrow_Competition_Presentation.pptx" download>Download PowerPoint</a></li>
+        <li><strong>PDF</strong><a href="assets/downloads/AstroFurrow_Competition_Presentation.pdf" download>Download PDF</a></li>
+      </ul>
+    </div>
+  </section>
+  <section class="source-area" id="sources" aria-labelledby="sources-title">
+    <div class="shell">
+      <div class="section-heading">
+        <div><p class="kicker">Check the evidence</p><h2 id="sources-title">Sources and credits</h2></div>
+        <p>Each plan depends on its example soil and crop settings. The grower chooses what to do.</p>
+      </div>
+      <div class="source-grid">
+        <article><h3>Weather and terrain</h3><p><span data-word="power">NASA POWER</span> daily weather uses <span data-word="utc">UTC days</span>. <span data-word="imerg">GPM IMERG</span> and <span data-word="merra">MERRA-2</span> represent different ways of estimating rain at a regional scale.</p>
+          <ul><li><a href="https://power.larc.nasa.gov/docs/services/api/temporal/daily/">NASA POWER Daily API</a></li>
+            <li><a href="https://gpm.nasa.gov/data/imerg">NASA GPM IMERG</a></li>
+            <li><a href="https://gmao.gsfc.nasa.gov/reanalysis/MERRA-2/">NASA MERRA-2</a></li>
+            <li><a href="https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003">NASA SRTMGL1 v003</a></li>
+            <li><a href="https://doi.org/10.5067/MODIS/MOD13Q1.061">NASA Terra MOD13Q1 v061</a></li>
+            <li><a href="https://www.naturalearthdata.com/about/terms-of-use/">World basemap made with Natural Earth</a></li></ul>
+        </article>
+        <article><h3>What can be checked at the farm?</h3><p>Use your own planting dates, soil observations and records of actual watering. A field check may change which options are sensible.</p>
+          <ul><li><a href="https://codis.cwa.gov.tw/">Taiwan CWA CODiS</a></li>
+            <li><a href="https://www.fao.org/4/X0490E/X0490E00.htm">FAO crop evapotranspiration methods</a><span data-word="et"></span></li>
+            <li><a href="tools/AstroFurrow_W04.html">Open the full desktop and Tuku tool</a></li>
+            <li><a href="https://www.ecmwf.int/en/forecasts/datasets/open-data">ECMWF Open Data for the Tuku updater</a><span data-word="forecast"></span></li>
+            <li><a href="tools/Tuku_AIFS_20261115_00Z.json" download>Download the archived Tuku forecast sample</a> (15 November 2026, 00:00 UTC)</li></ul>
+        </article>
+        <article><h3>About the creator</h3><p>Yi-Li, Chang · Project creator and team leader.</p>
+          <p>ChatGPT assisted the code, vector drawings, and teaching text. Named providers supplied the weather, terrain, and vegetation data. The farm plans and their effects are classroom scenarios.</p>
+          <p><a href="https://www.spaceappschallenge.org/2026/challenges/field-shift-adapting-farms-with-nasa-data/">Field Shift challenge</a> · <a href="https://github.com/yilichang-research">Creator’s GitHub profile</a></p>
+        </article>
+      </div>
+      <details class="paper evidence-panel" id="decision-evidence">
+        <summary>Follow one tested Tuku decision</summary>
+        <p>In the <a href="#tuku-water">72-hour lab</a>, the 10 mm practice plan ends day three at 50.3% of plant-available soil water with the archived rain. Setting rain to zero in the same simulation brings the result to 48.9%, below the example 50% line.</p>
+        <p>The input is NASA POWER Daily API v2.10.3, <code>IMERG_PRECTOT</code> in mm/day, for 11–13 August 2024 UTC. These are regional grid estimates. The v0.8 lab adds that rain to the soil water balance with the same crop, soil settings, and pumping in both runs.</p>
+        <p>A local-only comparison is pending. The separate Tuku gauge example uses Taiwan civil days. Its strict quality screen leaves zero complete matched days. Before watering on a farm, check both soil layers and how the field drains.</p>
+      </details>
+      <section class="paper evidence-panel" id="transparency" aria-labelledby="transparency-title">
+        <h3 id="transparency-title">AI/SI Tools &amp; Transparency</h3>
+        <p>ChatGPT assisted the website code, teaching vectors, English text, and tests. The six story covers are conceptual illustrations generated with GPT Image. The simulations use the cited provider archives and the lesson’s stated assumptions. The grower makes the planting decision.</p>
+        <p><a href="si_usage_manifest.json">Read the tool and attribution record</a></p>
+      </section>
+      <p class="site-credit">AstroFurrow · Field School 1.7.0 · English edition</p>
+    </div>
+  </section>
+</main>
+<dialog id="story-viewer" class="story-viewer" aria-labelledby="story-viewer-title">
+  <figure class="story-viewer-figure">
+    <form method="dialog">
+      <button class="dialog-close" type="submit" aria-label="Close illustration" autofocus><svg aria-hidden="true" viewBox="0 0 24 24"><use href="#icon-close"></use></svg></button>
+    </form>
+    <img id="story-viewer-image" alt="">
+    <figcaption id="story-viewer-title"></figcaption>
+  </figure>
+</dialog>
+<dialog id="explanation" class="explanation" aria-labelledby="explanation-title" aria-describedby="explanation-short">
+  <div class="dialog-inner">
+    <button type="button" id="close-explanation" class="dialog-close" aria-label="Close explanation"><svg aria-hidden="true" viewBox="0 0 24 24"><use href="#icon-close"></use></svg></button>
+    <div id="explanation-art" aria-hidden="true"></div>
+    <h2 id="explanation-title"></h2>
+    <p id="explanation-short"></p>
+    <div class="dialog-model"><h3>How we use it here</h3><p id="explanation-model"></p></div>
+  </div>
+</dialog>
+</body>
+</html>

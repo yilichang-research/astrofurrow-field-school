@@ -1,0 +1,25 @@
+ASTROFURROW FIELD SCHOOL
+Website art slot STORY_PERU_COVER
+Place — Peruvian Andes
+Existing story — What will cold air and a storm do on the slope?
+Suggested image filename — story-peru.png
+
+Create one exceptionally polished illustration for this story card. Landscape 16:9, with a preferred finished canvas of 1920 × 1080. Compose for the full horizontal image and a centered 16:9 crop. Leave breathing room around the focal subject and keep essential details and the credit area within the safe frame.
+
+Visual style
+An original contemporary picture book for families, with endearing shapes, observant natural details, and the warmth of gouache laid over softly textured paper. Use finely drawn pencil or brush contours, translucent shadows, quiet highlights and softly mixed pigments. Give the adult character clear expression and expressive hands. Use the camera cues below to lay out the focus plane and depth of field while retaining the warm hand-painted character of the whole picture. Keep the image readable when reduced to a story-card thumbnail. Work as one landscape scene with one main action.
+
+Scene and depth of field
+Paint an early morning walk along a small highland potato field in the Peruvian Andes. A fictional adult grower in a practical plum wool layer and simple work hat checks a dark potato-leaf cluster at the lip of a low stone terrace. Show carefully observed potato leaflets, a few straw pieces on covered soil and a modest exposed runnel that follows the slope toward a trough. A thin veil of pale mist gathers in the lower valley. Beyond a sunlit ridge, one soft cloud suggests the possibility of rain. The viewer should be able to follow the curve of the terrace from the leaf in focus down toward the valley. Give the adult a steady, thoughtful presence.
+
+Use a 40 mm f/5 visual perspective from halfway up the slope. Set the focal plane across the adult’s checking hand, dry cover and runnel edge. Let a nearby tuft on the left dissolve slightly and make the far ridges progressively lighter and softer. Mix cool violet-blue air with warm stone, potato-leaf greens and a light marigold glow on the top ridge. Keep the depth gradual and the terrain legible at thumbnail scale.
+
+Treat the damp runnel and cold valley mist as story cues. The tested storm is a what-if in the website. The scene shows no verified flood, frost injury, numeric slope, NASA map material or measured erosion result.
+
+Readability and credits
+Keep the lower-right corner quiet and evenly toned, with space for two readable lines around 24–28 px high at a 1080 px canvas height. Keep at least a 5% safe margin from the right and bottom. Add these exact lines as small English lettering in that corner.
+
+AI-generated with GPT Image
+Generated using SI tools
+
+Use the exact spelling and capitalization. If lettering is inaccurate, keep the area quiet so the exact lines can be set during website placement. The story title and place name will be supplied by the website. Keep the illustration free of other lettering, chart values, branding, flags, agency insignia, and watermark graphics. Use fictional adults and avoid recognizable real people. This is a conceptual story illustration. Keep all apparent measurements and results qualitative. Return one finished illustration.

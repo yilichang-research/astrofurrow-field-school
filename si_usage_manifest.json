@@ -1,0 +1,207 @@
+{
+  "schema": "af.si-usage.1",
+  "project": "AstroFurrow",
+  "release": "1.7.0",
+  "creator": "Yi-Li, Chang",
+  "uses": [
+    {
+      "tool": "ChatGPT",
+      "product_class": "conversational AI assistant",
+      "model_version": null,
+      "role": "Assisted website code, native SVG teaching illustrations and animation, written story-cover prompts, English copy, metadata, build tooling and test development.",
+      "human_role": "The creator supplied the project concept, source release, placement requirements, film, and the six selected story illustrations. Independent human acceptance testing is pending."
+    },
+    {
+      "tool": "ChatGPT",
+      "product_class": "Embedded credit for prompting and image generation with GPT Image. Model version unverified.",
+      "model_version": null,
+      "role": "The embedded credit names ChatGPT for prompts and GPT Image for image generation."
+    },
+    {
+      "tool": "Google Flow",
+      "product_class": "Video generation tool identified in the supplied film credits.",
+      "model_version": null,
+      "role": "The supplied film credits video to Google Flow."
+    },
+    {
+      "tool": "Suno",
+      "product_class": "Music generation tool identified in the supplied film credits.",
+      "model_version": null,
+      "role": "The supplied film credits music to Suno."
+    },
+    {
+      "tool": "Microsoft Clipchamp",
+      "product_class": "Video editor identified in the supplied container metadata.",
+      "model_version": null,
+      "role": "The supplied MP4 reports a Clipchamp encoder tag."
+    }
+  ],
+  "intro_film": {
+    "slot_id": "INTRO_FILM",
+    "original_filename": "Index_0(2).mp4",
+    "requested_filename": "Index_0.mp4",
+    "original_sha256": "0874a0aaac36121b76f8b48a6d80ae39dc2b8d412f4d733071f7d0cbfa4463ba",
+    "seconds": 15.866667,
+    "width": 1280,
+    "height": 720,
+    "fps": 30,
+    "video_codec": "H.264 Main",
+    "audio_codec": "AAC-LC stereo, 48 kHz",
+    "scene_status": "Conceptual six-region montage",
+    "disclosure": "AI-generated footage · Generated using SI tools",
+    "disclosure_placement": "Persistent HTML strip above the intact 3 × 2 frame. Embedded credits, including Generated using SI tools, are preserved with a legible HTML credit line.",
+    "public_footage_and_music_rights": "pending_owner_confirmation",
+    "likeness_and_branding": "Adult-appearing figures in sampled frames. Individual consent, identity, and asset rights are unverified. No NASA insignia was observed in the sampled frames.",
+    "bytes": 18629248,
+    "equivalent_uploaded_names": [
+      "Index_0.mp4",
+      "Index_0(1).mp4"
+    ],
+    "audio_video_playback": "One inline video syncs the embedded soundtrack and image in a native loop. The initial markup requests audible autoplay. A policy-blocked start retries silently, with Enable Sound for a user-initiated start or unmute.",
+    "included_in_build": true,
+    "release_path": "assets/media/Index_0.mp4",
+    "poster_sha256": "f3dcdf5c7039c389326c5219017d1fa2010ac1bcf24a15f812f064b232e7cdd5",
+    "player_sha256": "0cf5acaf6b0efb7506032b47b83ef97c466b6d0c1153af7aff0a5b612bd4b2ec"
+  },
+  "data": {
+    "providers": [
+      "NASA POWER / GPM IMERG and MERRA-2",
+      "NASA SRTM",
+      "NASA Terra MODIS",
+      "Taiwan CWA",
+      "ECMWF",
+      "Natural Earth"
+    ],
+    "method_reference": "Source and methods in the handoff and the site evidence panel.",
+    "generative_observations": false,
+    "hypothetical_values": "Classroom settings and model sensitivities are documented as illustrative. No new observation was generated.",
+    "bundle_sha256": "4136aea7ba0422e3599cd8a44f735f83d8bfb007fb1a344cc5421d69e684d168"
+  },
+  "integration": {
+    "etl": "The inherited Node build reads frozen NASA archives, matches the inherited Tuku evidence and bundles the verified data fingerprint.",
+    "gis": "The inherited map uses Natural Earth geometry and data-native NASA archive layers.",
+    "github_pages": "Static deployment files contain the supplied film and six JPEG story covers. Hosting and publication checks are pending.",
+    "hardware": "No hardware integration or farm validation was performed in this release."
+  },
+  "hero_animation": {
+    "slot_id": "HERO_GROWTH",
+    "source": "source/web/hero-growth.svg, embedded in the homepage",
+    "origin": "ChatGPT-assisted vector drawing and native SVG animation",
+    "classification": "Schematic time-lapse illustration. The orbits are projected and no location or live ephemeris is used.",
+    "solar_day_seconds": 48,
+    "plant_growth_cycle_seconds": 48,
+    "moon_visible_arc_seconds": 24.83,
+    "average_lunar_delay_minutes_per_day": 50,
+    "moon_phase_cycle_reset": "Two-day repeat. The last hidden arc rejoins the first moonrise phase.",
+    "satellite_orbit_seconds": 3,
+    "representative_satellite_period_minutes": 90,
+    "default_playback": "Starts and repeats on opening. The caption allows manual pause and resume. The timeline runs in SVG independently of page scripts or styles.",
+    "timing_references": [
+      "https://www.nasa.gov/international-space-station/space-station-facts-and-figures/",
+      "https://www.nasa.gov/solar-system/why-can-you-see-the-moon-during-the-day-we-asked-a-nasa-scientist-episode-19/"
+    ],
+    "svg_sha256": "58547efe3da53ee78f85296f2aeb751021c4430ebcd13ea446290c62cf7731d2"
+  },
+  "story_cover_prompts": {
+    "source": "source/prompt",
+    "deployed_folder": "prompt/",
+    "count": 6,
+    "intended_roles": "Existing story cover slots",
+    "render_status": "six_owner_supplied_covers_in_use"
+  },
+  "story_cover_images": {
+    "source_archive": "TSVQ(1).zip",
+    "origin": "Six conceptual illustrations supplied by the creator with embedded GPT Image credits.",
+    "tool": "GPT Image",
+    "product_class": "image generation model",
+    "model_version": null,
+    "purpose": "Illustrate the six stories. The mission data and scientific evidence are stored separately.",
+    "disclosures": [
+      "AI-generated with GPT Image",
+      "Generated using SI tools"
+    ],
+    "disclosure_placement": "Embedded in the lower-right area of each original. Preserved in the JPEGs and shown in full in the story viewer.",
+    "conversion": "The five artwork-archive covers use progressive JPEG at quality 92 with 4:4:4 sampling. The replacement Tuku cover uses the supplied JPEG bytes.",
+    "deployment_and_deck_reuse": "Website integration requested by the creator. Verify applicable permissions for any public deck reuse.",
+    "replacement_source": {
+      "slot_id": "STORY_TUKU_COVER",
+      "filename": "story-tuku.jpg",
+      "sha256": "7c0fd175138165891f885e0167a7515d9150fea303866ea890ebf06b6e7abcb9"
+    },
+    "files": {
+      "tuku": {
+        "slot_id": "STORY_TUKU_COVER",
+        "anchor": "#story-tuku",
+        "src": "assets/stories/story-tuku.jpg",
+        "width": 1672,
+        "height": 941,
+        "alt": "A Tuku grower sows peanuts beside harvested rice stubble at left and examines peanut pods among green plants at right.",
+        "input_sha256": "7c0fd175138165891f885e0167a7515d9150fea303866ea890ebf06b6e7abcb9",
+        "jpeg_sha256": "7c0fd175138165891f885e0167a7515d9150fea303866ea890ebf06b6e7abcb9",
+        "bytes": 791350,
+        "input_filename": "story-tuku.jpg"
+      },
+      "deccan": {
+        "slot_id": "STORY_DECCAN_COVER",
+        "anchor": "#story-deccan",
+        "src": "assets/stories/story-deccan.jpg",
+        "width": 1920,
+        "height": 1080,
+        "alt": "A grower looks toward storm clouds over a recently wetted field on the Deccan Plateau.",
+        "input_archive_member": "TSVQ/02_Deccan_India_Story_Cover.png",
+        "input_sha256": "4dc74afbeeed6544466773a37d966f5a970622f7549f4d0e0fba0412f6b05b11",
+        "jpeg_sha256": "e79b727e8f64d8953afd956e93f6c7e782de3e9bd7f5e6050b16f91c06bd641a",
+        "bytes": 792495
+      },
+      "kenya": {
+        "slot_id": "STORY_KENYA_COVER",
+        "anchor": "#story-kenya",
+        "src": "assets/stories/story-kenya.jpg",
+        "width": 1920,
+        "height": 1080,
+        "alt": "A grower directs water from a hose around young crops in a reddish eastern Kenyan field.",
+        "input_archive_member": "TSVQ/03_Eastern_Kenya_Story_Cover.png",
+        "input_sha256": "2cdbd41a1f348ea5788c76dd59cdfea3ddc5f2609daca8f7bb1466e8df2cf31a",
+        "jpeg_sha256": "d77bd53f462b324ffcd79ccce4ed13dae2db45eaec10954b01d98b65f05acc61",
+        "bytes": 884700
+      },
+      "spain": {
+        "slot_id": "STORY_SPAIN_COVER",
+        "anchor": "#story-spain",
+        "src": "assets/stories/story-spain.jpg",
+        "width": 1920,
+        "height": 1080,
+        "alt": "A grower checks the soil beside young cereal rows and a low stone wall in central Spain.",
+        "input_archive_member": "TSVQ/04_Central_Spain_Story_Cover.png",
+        "input_sha256": "9faf304b06eaf7bcc35aae5ac4f24efcbee088343856da9fc9ee72180d8ef89c",
+        "jpeg_sha256": "8ac841437d9b2b05f796374d96784b294f02f1944f9a50b773caafca547c6062",
+        "bytes": 964121
+      },
+      "peru": {
+        "slot_id": "STORY_PERU_COVER",
+        "anchor": "#story-peru",
+        "src": "assets/stories/story-peru.jpg",
+        "width": 1672,
+        "height": 941,
+        "alt": "A grower inspects potato foliage on stone terraces in the Peruvian Andes.",
+        "input_archive_member": "TSVQ/05_Peruvian_Andes_Story_Cover.png",
+        "input_sha256": "397bb0624b40e55f9ba0bf212df3a78d16fb664a0a84186fec21eb3f406a2604",
+        "jpeg_sha256": "1ca1f39fe082bb2c703ea7352d1ddfe994010c00c831cf83da018f97181021c0",
+        "bytes": 752356
+      },
+      "brazil": {
+        "slot_id": "STORY_BRAZIL_COVER",
+        "anchor": "#story-brazil",
+        "src": "assets/stories/story-brazil.jpg",
+        "width": 1920,
+        "height": 1080,
+        "alt": "A grower lifts crop residue in a harvested field in Brazil’s Cerrado.",
+        "input_archive_member": "TSVQ/06_Brazilian_Cerrado_Story_Cover.png",
+        "input_sha256": "b83f6b01dfc32e2d8412852826e0ed82634efd6c068b304f49255514647beb83",
+        "jpeg_sha256": "dea46c9842245a3a99edfd69ad7c7db8a0bc262cf214b9a77481553b11e6a60e",
+        "bytes": 785094
+      }
+    }
+  },
+  "implementation_sha256": "5bc2aeaf98fd9ff0efb10ac2d7a04ce240baf8857ea184ebce888173738e42cf"
+}

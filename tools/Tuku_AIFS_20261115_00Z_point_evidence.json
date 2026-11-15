@@ -1,0 +1,758 @@
+{
+  "schema": "af.w04.aifs-point-evidence.1",
+  "source": "ECMWF_AIFS_SINGLE_0P25",
+  "cycle_utc": "2026-11-15T00:00:00Z",
+  "first_step_hours": 12,
+  "retrieved_utc": "2026-11-15T07:26:21Z",
+  "grid_lat": 23.75,
+  "grid_lon": 120.5,
+  "index": [
+    {
+      "step": 12,
+      "index_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-12h-oper-fc.index",
+      "index_sha256": "340a3973508baecd968d144320239a09c303943f6c837bfa7955ccb0118c82f7",
+      "published_file_utc": "2026-11-15T05:49:00Z"
+    },
+    {
+      "step": 18,
+      "index_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-18h-oper-fc.index",
+      "index_sha256": "73b96c15641cd014945cebb7356d80b47bae31a1eb972b1fc8743dc64be9a74b",
+      "published_file_utc": "2026-11-15T05:51:00Z"
+    },
+    {
+      "step": 24,
+      "index_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-24h-oper-fc.index",
+      "index_sha256": "7fdd8134a127254f91424c52ed2d09f4967705dc1e4739fe78a70baca2212e61",
+      "published_file_utc": "2026-11-15T05:52:00Z"
+    },
+    {
+      "step": 30,
+      "index_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-30h-oper-fc.index",
+      "index_sha256": "2121916cf5e0ac588e3db8c576461c8c5a22ac8ff94767f909eb0fa25b0d5cf6",
+      "published_file_utc": "2026-11-15T05:54:00Z"
+    },
+    {
+      "step": 36,
+      "index_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-36h-oper-fc.index",
+      "index_sha256": "622354e441ec7906cd0106e79383a390213d7df642d48f0249e5c90f93b20819",
+      "published_file_utc": "2026-11-15T05:56:00Z"
+    },
+    {
+      "step": 42,
+      "index_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-42h-oper-fc.index",
+      "index_sha256": "bb3121af7a5f78fb969057176f9bf27083990c0901746990f01bd710481490e9",
+      "published_file_utc": "2026-11-15T05:58:00Z"
+    },
+    {
+      "step": 48,
+      "index_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-48h-oper-fc.index",
+      "index_sha256": "422ffa19f24c30d08ce1c01f10ac8accb469125e46fdb428bb5a66d9ff87ba29",
+      "published_file_utc": "2026-11-15T05:59:00Z"
+    },
+    {
+      "step": 54,
+      "index_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-54h-oper-fc.index",
+      "index_sha256": "535ad5ec17e47b99688bddc64bd21833826c3ff5fb9cee021929613089317524",
+      "published_file_utc": "2026-11-15T06:01:00Z"
+    },
+    {
+      "step": 60,
+      "index_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-60h-oper-fc.index",
+      "index_sha256": "c0031b237035ffad4201bf0627019323bf0654cb1308f319b1059531a67be5e6",
+      "published_file_utc": "2026-11-15T06:03:00Z"
+    },
+    {
+      "step": 66,
+      "index_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-66h-oper-fc.index",
+      "index_sha256": "6f0e57eb88d6957e148fff4a239362244afc8d7b57b33ea24a4e299ce1625fd0",
+      "published_file_utc": "2026-11-15T06:05:00Z"
+    },
+    {
+      "step": 72,
+      "index_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-72h-oper-fc.index",
+      "index_sha256": "7c260b78998ddd376a9c7db9f37881e2f44063e1e21474147625a66f6897cade",
+      "published_file_utc": "2026-11-15T06:06:00Z"
+    },
+    {
+      "step": 78,
+      "index_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-78h-oper-fc.index",
+      "index_sha256": "6fa3d5230b4f5ad173a5f0a955adbcf6d448cb8f09387406d7b3760e6d220d53",
+      "published_file_utc": "2026-11-15T06:08:00Z"
+    },
+    {
+      "step": 84,
+      "index_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-84h-oper-fc.index",
+      "index_sha256": "0aee6b0649b96c7bed2a6b29f352a1507ce02b1346a015cbc29b7459c10ad8b5",
+      "published_file_utc": "2026-11-15T06:10:00Z"
+    }
+  ],
+  "messages": [
+    {
+      "step_hours": 12,
+      "param": "2t",
+      "units": "K",
+      "value": 295.8802185058594,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-12h-oper-fc.grib2",
+      "content_range": "bytes 58021842-58273625/58933623",
+      "grib_sha256": "33b648af6f4d9c1f3c4096dee62f6158553a8fd66fa35db38935a827889790f1"
+    },
+    {
+      "step_hours": 12,
+      "param": "2d",
+      "units": "K",
+      "value": 293.3504333496094,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-12h-oper-fc.grib2",
+      "content_range": "bytes 58273626-58530645/58933623",
+      "grib_sha256": "3844b7ab6f7a880930354b0ebe59545ddc1570764aef71915ea17f8e25cb3e8d"
+    },
+    {
+      "step_hours": 12,
+      "param": "10u",
+      "units": "m s**-1",
+      "value": -0.2505836486816406,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-12h-oper-fc.grib2",
+      "content_range": "bytes 56810182-57407788/58933623",
+      "grib_sha256": "32746f07234f30b0619701edbd6ff5eaa800a3e81cd285848ffb215f642f2977"
+    },
+    {
+      "step_hours": 12,
+      "param": "10v",
+      "units": "m s**-1",
+      "value": -1.0644283294677734,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-12h-oper-fc.grib2",
+      "content_range": "bytes 57407789-58021841/58933623",
+      "grib_sha256": "900996f89c9b4d7b33977c55f920ff7da4ba3d4f5f26604c4bf92ba39ddda3f6"
+    },
+    {
+      "step_hours": 12,
+      "param": "sp",
+      "units": "Pa",
+      "value": 100589.375,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-12h-oper-fc.grib2",
+      "content_range": "bytes 7468921-7973953/58933623",
+      "grib_sha256": "9e67ec3b68ac794d8711e0a66ca4db279d3ae4b54ee90fec4ef93673c08e786b"
+    },
+    {
+      "step_hours": 18,
+      "param": "2t",
+      "units": "K",
+      "value": 294.3360137939453,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-18h-oper-fc.grib2",
+      "content_range": "bytes 57162959-57413209/58149021",
+      "grib_sha256": "e7f3e4649e2d7cf757f1b8647cf7a3e252c2a927b0a8e03ed6c3c404ccfe6b53"
+    },
+    {
+      "step_hours": 18,
+      "param": "2d",
+      "units": "K",
+      "value": 292.1876983642578,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-18h-oper-fc.grib2",
+      "content_range": "bytes 57413210-57667821/58149021",
+      "grib_sha256": "b1f82f66dadbd8f86c23cf3e27a7f5ebae03825f879b4e582586b00cfb932109"
+    },
+    {
+      "step_hours": 18,
+      "param": "10u",
+      "units": "m s**-1",
+      "value": -0.5498905181884766,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-18h-oper-fc.grib2",
+      "content_range": "bytes 55316946-55908967/58149021",
+      "grib_sha256": "56c39e8b9eb106f298915ef922e89602cbb2c44f035b89f89e0dadd2de1bbaa3"
+    },
+    {
+      "step_hours": 18,
+      "param": "10v",
+      "units": "m s**-1",
+      "value": 0.188507080078125,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-18h-oper-fc.grib2",
+      "content_range": "bytes 56555937-57162958/58149021",
+      "grib_sha256": "9c8ecaf700d84c3f66155c1ad69b0a8de9fadd55d15b4d198c8a2871d85116ae"
+    },
+    {
+      "step_hours": 18,
+      "param": "sp",
+      "units": "Pa",
+      "value": 100635.98046875,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-18h-oper-fc.grib2",
+      "content_range": "bytes 8245761-8751689/58149021",
+      "grib_sha256": "9cfe3ce0c74c0361cd00bffdeccf4a0fc9ff7952e3723dc6302985716c18045c"
+    },
+    {
+      "step_hours": 24,
+      "param": "2t",
+      "units": "K",
+      "value": 296.6019744873047,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-24h-oper-fc.grib2",
+      "content_range": "bytes 56293059-56540464/57203247",
+      "grib_sha256": "a2f18cb97a8b912228a7ed400390dbdb9dfb01b7d4c0161532c5fbb9e99be70e"
+    },
+    {
+      "step_hours": 24,
+      "param": "2d",
+      "units": "K",
+      "value": 294.0482482910156,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-24h-oper-fc.grib2",
+      "content_range": "bytes 56540465-56791943/57203247",
+      "grib_sha256": "cd3d9ef150daa0d9e06941d8b01aa1a9af9af62c0b74f511bb5e8b1f2a0463af"
+    },
+    {
+      "step_hours": 24,
+      "param": "10u",
+      "units": "m s**-1",
+      "value": -0.3494071960449219,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-24h-oper-fc.grib2",
+      "content_range": "bytes 54461575-55048026/57203247",
+      "grib_sha256": "f6c115444e68f29f23f737a20b61e20d88bf0e61f07c5ee030651a1d78b5824a"
+    },
+    {
+      "step_hours": 24,
+      "param": "10v",
+      "units": "m s**-1",
+      "value": -0.7940292358398438,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-24h-oper-fc.grib2",
+      "content_range": "bytes 55691157-56293058/57203247",
+      "grib_sha256": "24fa745b2ce684272b5d027d7d5914cd7a0ea52e628f0e4441635d6594e28d61"
+    },
+    {
+      "step_hours": 24,
+      "param": "sp",
+      "units": "Pa",
+      "value": 100851.22265625,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-24h-oper-fc.grib2",
+      "content_range": "bytes 8271826-8776413/57203247",
+      "grib_sha256": "9978ce9e9d0aecb9346490abd58b06a93f6ad52306a331ebdefc078295106b55"
+    },
+    {
+      "step_hours": 30,
+      "param": "2t",
+      "units": "K",
+      "value": 300.9064636230469,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-30h-oper-fc.grib2",
+      "content_range": "bytes 55616570-55862330/56543076",
+      "grib_sha256": "17388d7eaed943f3d5e06c7a13647fc7fd1a3da290baa84a484a3bb17b607f34"
+    },
+    {
+      "step_hours": 30,
+      "param": "2d",
+      "units": "K",
+      "value": 294.3908233642578,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-30h-oper-fc.grib2",
+      "content_range": "bytes 55862331-56111249/56543076",
+      "grib_sha256": "63a47d1df5c85200f53c36f74d42aeb591773ab3f4c84e8c277794ac8b5a779b"
+    },
+    {
+      "step_hours": 30,
+      "param": "10u",
+      "units": "m s**-1",
+      "value": 1.2596149444580078,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-30h-oper-fc.grib2",
+      "content_range": "bytes 54434670-55018336/56543076",
+      "grib_sha256": "15dcd61e986deefb9f983853185bd6efd8a08c2f07587d67dd0f6888a93d830f"
+    },
+    {
+      "step_hours": 30,
+      "param": "10v",
+      "units": "m s**-1",
+      "value": -1.2810420989990234,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-30h-oper-fc.grib2",
+      "content_range": "bytes 55018337-55616569/56543076",
+      "grib_sha256": "f050601285d9bccfedfc2d1c4f7e6e7a5c3270e29fbc3b1a98903981b1f6df5c"
+    },
+    {
+      "step_hours": 30,
+      "param": "sp",
+      "units": "Pa",
+      "value": 100557.03515625,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-30h-oper-fc.grib2",
+      "content_range": "bytes 11738034-12243593/56543076",
+      "grib_sha256": "8e7097c4e71066434c26e6290e94b1e21d8cb062d9e22b6a700a18ddfafa6e1f"
+    },
+    {
+      "step_hours": 36,
+      "param": "2t",
+      "units": "K",
+      "value": 295.5984649658203,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-36h-oper-fc.grib2",
+      "content_range": "bytes 55142642-55388943/56087910",
+      "grib_sha256": "ab26d40448a9cc5f4834c10a48cfc858b84da556f317ea37f1ad021f5f5a6bf2"
+    },
+    {
+      "step_hours": 36,
+      "param": "2d",
+      "units": "K",
+      "value": 292.9524688720703,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-36h-oper-fc.grib2",
+      "content_range": "bytes 55388944-55637468/56087910",
+      "grib_sha256": "f6b3667bb981c4af57aad6b5c67978386c67bd7823e1d9b4c5ff1bbe6e2f39a5"
+    },
+    {
+      "step_hours": 36,
+      "param": "10u",
+      "units": "m s**-1",
+      "value": -0.7395973205566406,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-36h-oper-fc.grib2",
+      "content_range": "bytes 53967168-54547615/56087910",
+      "grib_sha256": "7b7a174cc978485f0e531ba1fc9eaff5079eb494d7bd12624f1bfb5fd8c16a5b"
+    },
+    {
+      "step_hours": 36,
+      "param": "10v",
+      "units": "m s**-1",
+      "value": -1.5319900512695312,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-36h-oper-fc.grib2",
+      "content_range": "bytes 54547616-55142641/56087910",
+      "grib_sha256": "0cec8b78893f95980862361f5575c875685dd90480296e8ec31b2da0c75d379a"
+    },
+    {
+      "step_hours": 36,
+      "param": "sp",
+      "units": "Pa",
+      "value": 100771.62890625,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-36h-oper-fc.grib2",
+      "content_range": "bytes 8458497-8962999/56087910",
+      "grib_sha256": "22565da98d3c8f0e36900e64899210d80255006c7552a006727c56ab16b5141d"
+    },
+    {
+      "step_hours": 42,
+      "param": "2t",
+      "units": "K",
+      "value": 293.2262725830078,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-42h-oper-fc.grib2",
+      "content_range": "bytes 55170670-55416894/56129483",
+      "grib_sha256": "37f3adbe69883a9da3d0fcdca26d7a17aad51a76162ba5644b874ed3ce78c36a"
+    },
+    {
+      "step_hours": 42,
+      "param": "2d",
+      "units": "K",
+      "value": 291.1964111328125,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-42h-oper-fc.grib2",
+      "content_range": "bytes 55416895-55663325/56129483",
+      "grib_sha256": "ad2ec63acbefb0f383783bb2b2142228fb5d50c9e51a38ec4c6797cae57354b5"
+    },
+    {
+      "step_hours": 42,
+      "param": "10u",
+      "units": "m s**-1",
+      "value": -0.9985942840576172,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-42h-oper-fc.grib2",
+      "content_range": "bytes 53997309-54576362/56129483",
+      "grib_sha256": "bd7bef31ac7a12e07f536b347456e54159d96f6f001c7148d0734692ccf833b3"
+    },
+    {
+      "step_hours": 42,
+      "param": "10v",
+      "units": "m s**-1",
+      "value": -0.884368896484375,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-42h-oper-fc.grib2",
+      "content_range": "bytes 54576363-55170669/56129483",
+      "grib_sha256": "8cdb3d4d913f3ea2445613496e94fcb738c4a07b0e3fbf66c4e8d41d33a03cb4"
+    },
+    {
+      "step_hours": 42,
+      "param": "sp",
+      "units": "Pa",
+      "value": 100808.50390625,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-42h-oper-fc.grib2",
+      "content_range": "bytes 8131692-8636710/56129483",
+      "grib_sha256": "79594a3965f7226bb7037c064c5976c9f73173ed2917a7077352afaef5261fe5"
+    },
+    {
+      "step_hours": 48,
+      "param": "2t",
+      "units": "K",
+      "value": 295.76719665527344,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-48h-oper-fc.grib2",
+      "content_range": "bytes 55029696-55273929/55894154",
+      "grib_sha256": "6f939d9be2eaa8ee7bb4e13e94fd7959ae3ba5371538842898edb7a77f9dc515"
+    },
+    {
+      "step_hours": 48,
+      "param": "2d",
+      "units": "K",
+      "value": 292.56398010253906,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-48h-oper-fc.grib2",
+      "content_range": "bytes 55273930-55519299/55894154",
+      "grib_sha256": "cade2cac4b1aa539ac0619ea362b0d12b1a8742dc662fa0ae751627764def5e8"
+    },
+    {
+      "step_hours": 48,
+      "param": "10u",
+      "units": "m s**-1",
+      "value": -0.6593437194824219,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-48h-oper-fc.grib2",
+      "content_range": "bytes 53861567-54437334/55894154",
+      "grib_sha256": "71c09279791c3f971982091edd18993436dbc8503075d056956c68fd3989a2a5"
+    },
+    {
+      "step_hours": 48,
+      "param": "10v",
+      "units": "m s**-1",
+      "value": -1.1238842010498047,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-48h-oper-fc.grib2",
+      "content_range": "bytes 54437335-55029695/55894154",
+      "grib_sha256": "0b1767b15908a0013384ea289e2ba80085824a4f37303c2d336efdae6de4b6cc"
+    },
+    {
+      "step_hours": 48,
+      "param": "sp",
+      "units": "Pa",
+      "value": 101024.73828125,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-48h-oper-fc.grib2",
+      "content_range": "bytes 8037464-8541850/55894154",
+      "grib_sha256": "0d98c6752d88245345e046d47ab0f0e59f6c7a7d77acd3929ecfa3dfa178495b"
+    },
+    {
+      "step_hours": 54,
+      "param": "2t",
+      "units": "K",
+      "value": 301.31651306152344,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-54h-oper-fc.grib2",
+      "content_range": "bytes 55044928-55288115/55917339",
+      "grib_sha256": "e6c8bcd4f2408cc6a9296602cd6ba27d57ff53e3671ae61c8b1fff1eec3947cb"
+    },
+    {
+      "step_hours": 54,
+      "param": "2d",
+      "units": "K",
+      "value": 294.08966064453125,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-54h-oper-fc.grib2",
+      "content_range": "bytes 55288116-55531869/55917339",
+      "grib_sha256": "1d06542e5f85e9e1451ff21d11aa387ad33790f08048bc2665749f07289157fa"
+    },
+    {
+      "step_hours": 54,
+      "param": "10u",
+      "units": "m s**-1",
+      "value": 0.5640201568603516,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-54h-oper-fc.grib2",
+      "content_range": "bytes 53881876-54455924/55917339",
+      "grib_sha256": "0b8161c6853fe32ea96488fb68e03186904080f761109ab64c9ce8cc3ac47e6c"
+    },
+    {
+      "step_hours": 54,
+      "param": "10v",
+      "units": "m s**-1",
+      "value": -3.2140731811523438,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-54h-oper-fc.grib2",
+      "content_range": "bytes 54455925-55044927/55917339",
+      "grib_sha256": "97cb616e113106901bd2a831a0824151da96b16557071fdb5e93739c30e77134"
+    },
+    {
+      "step_hours": 54,
+      "param": "sp",
+      "units": "Pa",
+      "value": 100794.51171875,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-54h-oper-fc.grib2",
+      "content_range": "bytes 7959941-8465617/55917339",
+      "grib_sha256": "0ad3e60891d6a9485d3829bc4ba8a6c633c466ff039dd58c89e080c3c7ab7c69"
+    },
+    {
+      "step_hours": 60,
+      "param": "2t",
+      "units": "K",
+      "value": 294.9997100830078,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-60h-oper-fc.grib2",
+      "content_range": "bytes 54861860-55105864/55745432",
+      "grib_sha256": "cb55e51835b3a17bc43a1f0db1f874ff85808ad57e4f7b3351fd406e8228142c"
+    },
+    {
+      "step_hours": 60,
+      "param": "2d",
+      "units": "K",
+      "value": 292.5386199951172,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-60h-oper-fc.grib2",
+      "content_range": "bytes 55105865-55349617/55745432",
+      "grib_sha256": "a28ffec9fb4bf7a83a477e141136884691116721b286afb81fe687d817641a94"
+    },
+    {
+      "step_hours": 60,
+      "param": "10u",
+      "units": "m s**-1",
+      "value": -0.9117565155029297,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-60h-oper-fc.grib2",
+      "content_range": "bytes 53085110-53656708/55745432",
+      "grib_sha256": "a579bc7995fdd50ae39191b7f2cc4f93d87864a0887a01166f5fb91108ff7ce4"
+    },
+    {
+      "step_hours": 60,
+      "param": "10v",
+      "units": "m s**-1",
+      "value": -1.4744071960449219,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-60h-oper-fc.grib2",
+      "content_range": "bytes 54277440-54861859/55745432",
+      "grib_sha256": "2cb7ea64626708163e1a509dbe298d3945ee4cff282f740f9e8250c26ea384dc"
+    },
+    {
+      "step_hours": 60,
+      "param": "sp",
+      "units": "Pa",
+      "value": 101034.90625,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-60h-oper-fc.grib2",
+      "content_range": "bytes 7916649-8421624/55745432",
+      "grib_sha256": "1c008768099ed57b0ecd0a883b7dad77f0906883d71e71e49b91403d09460dd8"
+    },
+    {
+      "step_hours": 66,
+      "param": "2t",
+      "units": "K",
+      "value": 292.5731201171875,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-66h-oper-fc.grib2",
+      "content_range": "bytes 55007552-55252489/55900481",
+      "grib_sha256": "c5677cab523c81136cf7a761f0a379a10ccea0283bc06529b23f93673e4c4506"
+    },
+    {
+      "step_hours": 66,
+      "param": "2d",
+      "units": "K",
+      "value": 290.3658142089844,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-66h-oper-fc.grib2",
+      "content_range": "bytes 55252490-55495528/55900481",
+      "grib_sha256": "3b572b3be0515345f26bafcf88a2b8d37acf64fe85964285ea0b15b5f3108102"
+    },
+    {
+      "step_hours": 66,
+      "param": "10u",
+      "units": "m s**-1",
+      "value": -0.6575813293457031,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-66h-oper-fc.grib2",
+      "content_range": "bytes 53855434-54426011/55900481",
+      "grib_sha256": "9dd1c5998d62eeee47a881692a7a477180cbc9a35460090e9b77a69492f26bf6"
+    },
+    {
+      "step_hours": 66,
+      "param": "10v",
+      "units": "m s**-1",
+      "value": -0.05322837829589844,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-66h-oper-fc.grib2",
+      "content_range": "bytes 54426012-55007551/55900481",
+      "grib_sha256": "3864384ded076d47b1b5e3992661dd3b0b1f7daf195a3fe9a4eacc1546f9f16e"
+    },
+    {
+      "step_hours": 66,
+      "param": "sp",
+      "units": "Pa",
+      "value": 101036.78515625,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-66h-oper-fc.grib2",
+      "content_range": "bytes 7853963-8358553/55900481",
+      "grib_sha256": "499c528532462803c6c67a1f1b3962d8d797e3122d912ffb09f07067cbec4e79"
+    },
+    {
+      "step_hours": 72,
+      "param": "2t",
+      "units": "K",
+      "value": 295.2292785644531,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-72h-oper-fc.grib2",
+      "content_range": "bytes 55321223-55563029/56218009",
+      "grib_sha256": "93cea936ec1612cf29c762979f212656ee3211ec04cb5d9f6f2d71c685656ddd"
+    },
+    {
+      "step_hours": 72,
+      "param": "2d",
+      "units": "K",
+      "value": 292.1169738769531,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-72h-oper-fc.grib2",
+      "content_range": "bytes 55563030-55805015/56218009",
+      "grib_sha256": "e2378e4483a753768ca0fcae196f57cb62fb6646df8f18199f58b81610bac4a2"
+    },
+    {
+      "step_hours": 72,
+      "param": "10u",
+      "units": "m s**-1",
+      "value": -0.4373359680175781,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-72h-oper-fc.grib2",
+      "content_range": "bytes 54173704-54742844/56218009",
+      "grib_sha256": "11c95dded610bee5b5a77ae4d204ff4d862143b1df70a1d398102e18bfaff9c8"
+    },
+    {
+      "step_hours": 72,
+      "param": "10v",
+      "units": "m s**-1",
+      "value": -0.487640380859375,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-72h-oper-fc.grib2",
+      "content_range": "bytes 54742845-55321222/56218009",
+      "grib_sha256": "884cdba7f3a04853a0016c5dd2a970f6091a1ff64cbd8a723f79a9d79c4d757c"
+    },
+    {
+      "step_hours": 72,
+      "param": "sp",
+      "units": "Pa",
+      "value": 101231.60546875,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-72h-oper-fc.grib2",
+      "content_range": "bytes 7603338-8106808/56218009",
+      "grib_sha256": "efb8cc94875561e58987289cf64a0d57ca84a140fbe358a423a4009e46cf6413"
+    },
+    {
+      "step_hours": 78,
+      "param": "2t",
+      "units": "K",
+      "value": 300.93328857421875,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-78h-oper-fc.grib2",
+      "content_range": "bytes 55005077-55246375/55907461",
+      "grib_sha256": "a128bc0ad2c2698d80dd1442c8ba10ce46232d885058463d29efe10d753f75fd"
+    },
+    {
+      "step_hours": 78,
+      "param": "2d",
+      "units": "K",
+      "value": 294.1712646484375,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-78h-oper-fc.grib2",
+      "content_range": "bytes 55246376-55486779/55907461",
+      "grib_sha256": "936b67434c0a588fb28a6ebd7dd411884c58d828c83e74ebceb744f917e1e585"
+    },
+    {
+      "step_hours": 78,
+      "param": "10u",
+      "units": "m s**-1",
+      "value": 0.6322536468505859,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-78h-oper-fc.grib2",
+      "content_range": "bytes 53860963-54428317/55907461",
+      "grib_sha256": "b7ecef8d09b8bcf8d00c583c9fd993e541ace4cd552fa8271ff961d5d821dd1d"
+    },
+    {
+      "step_hours": 78,
+      "param": "10v",
+      "units": "m s**-1",
+      "value": -3.342529296875,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-78h-oper-fc.grib2",
+      "content_range": "bytes 54428318-55005076/55907461",
+      "grib_sha256": "80706f58fe8225a575b8e09676325c1554ac56ae0d069759bbae1e4b5f58054b"
+    },
+    {
+      "step_hours": 78,
+      "param": "sp",
+      "units": "Pa",
+      "value": 100975.13671875,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-78h-oper-fc.grib2",
+      "content_range": "bytes 8082204-8586193/55907461",
+      "grib_sha256": "1cbc2a36477626e03603396b618ad3d7b98e7b4177d813b46580179109cc195e"
+    },
+    {
+      "step_hours": 84,
+      "param": "2t",
+      "units": "K",
+      "value": 294.8943634033203,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-84h-oper-fc.grib2",
+      "content_range": "bytes 55478650-55720965/56389577",
+      "grib_sha256": "30612b2ce6722ece43f17eaeaa31b86b55d2c7e0aaa14467c8b2586c71d89b8f"
+    },
+    {
+      "step_hours": 84,
+      "param": "2d",
+      "units": "K",
+      "value": 292.65716552734375,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-84h-oper-fc.grib2",
+      "content_range": "bytes 55720966-55961280/56389577",
+      "grib_sha256": "1c96c4d31e077b272465872cc14b28ab0f53a2954eb095a93234b9b22d8e2ab4"
+    },
+    {
+      "step_hours": 84,
+      "param": "10u",
+      "units": "m s**-1",
+      "value": -0.7933406829833984,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-84h-oper-fc.grib2",
+      "content_range": "bytes 54335653-54901070/56389577",
+      "grib_sha256": "f248ce544aab46afba448cb0f3e4437b90e9ff177672eb535ccf8d5cca53e611"
+    },
+    {
+      "step_hours": 84,
+      "param": "10v",
+      "units": "m s**-1",
+      "value": -2.1116161346435547,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-84h-oper-fc.grib2",
+      "content_range": "bytes 54901071-55478649/56389577",
+      "grib_sha256": "fe91044f59b0375b1798d7e4dad947e5f19da71e52ba5e9a32f49e72ac5ce45b"
+    },
+    {
+      "step_hours": 84,
+      "param": "sp",
+      "units": "Pa",
+      "value": 101239.70703125,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-84h-oper-fc.grib2",
+      "content_range": "bytes 8889931-9393588/56389577",
+      "grib_sha256": "11fe77ef6bc1d02c78bbae3c9ed2129ff6b974d4f951d74eb2750da500350f7c"
+    },
+    {
+      "step_hours": 12,
+      "param": "tp",
+      "units": "kg m**-2",
+      "value": 0.5625,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-12h-oper-fc.grib2",
+      "content_range": "bytes 13131446-13428725/58933623",
+      "grib_sha256": "5b8e07c2233da3d4e68222b6a18bfe2253db53cbceaf01a1c6fc04c2cbe25d41"
+    },
+    {
+      "step_hours": 12,
+      "param": "ssrd",
+      "units": "J m**-2",
+      "value": 14647296.0,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-12h-oper-fc.grib2",
+      "content_range": "bytes 58530646-58933622/58933623",
+      "grib_sha256": "6eef7b866a67581aef56d39ab9d3376d536e28c0468420cddc8f64a2c9e51f60"
+    },
+    {
+      "step_hours": 36,
+      "param": "tp",
+      "units": "kg m**-2",
+      "value": 2.125,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-36h-oper-fc.grib2",
+      "content_range": "bytes 12851174-13177335/56087910",
+      "grib_sha256": "f9dacad3c481b9c92324344ee4ca36a29dc3eb3e58f1b09a10de4f533e096914"
+    },
+    {
+      "step_hours": 36,
+      "param": "ssrd",
+      "units": "J m**-2",
+      "value": 29687808.0,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-36h-oper-fc.grib2",
+      "content_range": "bytes 55637469-56087909/56087910",
+      "grib_sha256": "4419ad3f8d5672f76a3c9c7ab24b535dc5e84223f9b2166e1f2a832e0cd46de8"
+    },
+    {
+      "step_hours": 60,
+      "param": "tp",
+      "units": "kg m**-2",
+      "value": 2.125,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-60h-oper-fc.grib2",
+      "content_range": "bytes 12807222-13187890/55745432",
+      "grib_sha256": "0119f6d270a983dcb4c23999d114a80bdafa177b887c458fd0ac93a075583b1c"
+    },
+    {
+      "step_hours": 60,
+      "param": "ssrd",
+      "units": "J m**-2",
+      "value": 47185920.0,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-60h-oper-fc.grib2",
+      "content_range": "bytes 55349618-55745431/55745432",
+      "grib_sha256": "0c375d6de011a4dd1b2d5db57118de6d725a6c8ee8f6f73ac102d0aad32e3e21"
+    },
+    {
+      "step_hours": 84,
+      "param": "tp",
+      "units": "kg m**-2",
+      "value": 2.125,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-84h-oper-fc.grib2",
+      "content_range": "bytes 12105602-12526292/56389577",
+      "grib_sha256": "89c93d71c772d6df0cf6b8571f4622541e71d99889e50ef0e367a118c41a6ed5"
+    },
+    {
+      "step_hours": 84,
+      "param": "ssrd",
+      "units": "J m**-2",
+      "value": 64487424.0,
+      "grib_url": "https://data.ecmwf.int/forecasts/20261115/00z/aifs-single/0p25/oper/20261115000000-84h-oper-fc.grib2",
+      "content_range": "bytes 55961281-56389576/56389577",
+      "grib_sha256": "69f02898f648d2850a00b84ca84e01772f1b2ced43474199fcb6fe7b4df380b0"
+    }
+  ],
+  "attribution": {
+    "copyright": "© 2026 European Centre for Medium-Range Weather Forecasts (ECMWF)",
+    "credit": "These data are based on data and products of the European Centre for Medium-Range Weather Forecasts (ECMWF).",
+    "source_url": "https://www.ecmwf.int/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "terms_url": "https://apps.ecmwf.int/datasets/licences/general/",
+    "provider_notice": "ECMWF’s terms exclude liability for data errors, omissions, availability, and any loss or damage from use.",
+    "changes": "AstroFurrow decoded the nearest public grid point from the original GRIB messages."
+  }
+}

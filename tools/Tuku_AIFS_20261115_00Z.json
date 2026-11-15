@@ -1,0 +1,65 @@
+{
+  "schema": "af.w04.tuku-forecast.1",
+  "site": "tuku",
+  "source": "ECMWF_AIFS_SINGLE_0P25",
+  "cycle_utc": "2026-11-15T00:00:00Z",
+  "available_utc": "2026-11-15T06:10:00Z",
+  "retrieved_utc": "2026-11-15T07:26:21Z",
+  "grid_lat": 23.75,
+  "grid_lon": 120.5,
+  "evidence_sha256": "9a8729e05205c4d8a9b702c5fb78becf752a10be775e851f2ea015b0a65f9082",
+  "days": [
+    {
+      "start_utc": "2026-11-15T12:00:00Z",
+      "end_utc": "2026-11-16T12:00:00Z",
+      "rain_mm": 1.5625,
+      "met": {
+        "T2M": 23.745948,
+        "T2M_MIN": 21.186014,
+        "T2M_MAX": 27.756464,
+        "T2MDEW": 20.294555,
+        "WS2M": 0.868136,
+        "PS": 100.681185,
+        "ALLSKY_SFC_SW_DWN": 15.040512
+      }
+    },
+    {
+      "start_utc": "2026-11-16T12:00:00Z",
+      "end_utc": "2026-11-17T12:00:00Z",
+      "rain_mm": 0,
+      "met": {
+        "T2M": 23.252267,
+        "T2M_MIN": 20.076273,
+        "T2M_MAX": 28.166513,
+        "T2MDEW": 19.498899,
+        "WS2M": 1.424373,
+        "PS": 100.882755,
+        "ALLSKY_SFC_SW_DWN": 17.498112
+      }
+    },
+    {
+      "start_utc": "2026-11-17T12:00:00Z",
+      "end_utc": "2026-11-18T12:00:00Z",
+      "rain_mm": 0,
+      "met": {
+        "T2M": 22.770681,
+        "T2M_MIN": 19.42312,
+        "T2M_MAX": 27.783289,
+        "T2MDEW": 19.162986,
+        "WS2M": 1.254911,
+        "PS": 101.095208,
+        "ALLSKY_SFC_SW_DWN": 17.301504
+      }
+    }
+  ],
+  "attribution": {
+    "copyright": "© 2026 European Centre for Medium-Range Weather Forecasts (ECMWF)",
+    "credit": "These data are based on data and products of the European Centre for Medium-Range Weather Forecasts (ECMWF).",
+    "source_url": "https://www.ecmwf.int/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "terms_url": "https://apps.ecmwf.int/datasets/licences/general/",
+    "provider_notice": "ECMWF’s terms exclude liability for data errors, omissions, availability, and any loss or damage from use.",
+    "changes": "AstroFurrow selected a grid point, converted units, and aggregated forecast intervals."
+  }
+}
